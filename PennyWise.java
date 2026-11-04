@@ -27,3 +27,32 @@ public LocalDate getDate() {
 }
 }
 	
+class ExpensesManager {
+	private ArrayList<Expense> expenses = new ArrayList<>();
+
+	public void addExpense(Expense expense) {
+		expenses.add(expense);
+	}
+
+	public void deleteExpense(int index) {
+		if (index >= 0 && index < expenses.size()) {
+			expenses.remove(index);
+		}
+	}
+	public double calculateTotal() {
+		double total = 0;
+
+		for (Expense expense : expenses) {
+			total += expense.getAmount();
+		}
+
+		return total;
+	}
+
+	public ArrayList<Expense> getExpenses() {
+		return expenses;
+	}
+}
+
+	
+	
