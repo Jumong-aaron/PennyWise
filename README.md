@@ -1,1 +1,1 @@
-<p align="center"># PennyWise</p>
+<p align="center">PennyWise</p>
