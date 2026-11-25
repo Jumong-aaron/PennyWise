@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-/** Manages the collection of expense records. */
 public class ExpensesManager {
     private final ArrayList<Expenses> expenses = new ArrayList<>();
 
@@ -9,7 +8,6 @@ public class ExpensesManager {
         expenses.add(expense);
     }
 
-    /** Removes the expense at the given position. Returns false if invalid. */
     public boolean deleteExpense(int index) {
         if (index < 0 || index >= expenses.size()) {
             return false;
@@ -18,7 +16,6 @@ public class ExpensesManager {
         return true;
     }
 
-    /** Total of all expenses. */
     public double calculateTotal() {
       double total = 0;
       for (Expenses e : expenses) {
@@ -27,10 +24,6 @@ public class ExpensesManager {
       return total;
     }
 
-    /**
-     * Total of one category. "Others" also includes any record whose
-     * category is not Food, Transportation or School.
-     */
     public double calculateTotal(String category) {
         double total = 0;
         for (Expenses e : expenses) {
@@ -49,8 +42,6 @@ public class ExpensesManager {
     public ArrayList<Expenses> getExpenses() {
         return new ArrayList<>(expenses);
     }
-
-    /** Replaces the whole collection (used after loading from the file). */
     public void setExpenses(List<Expenses> loaded) {
         expenses.clear();
         expenses.addAll(loaded);
