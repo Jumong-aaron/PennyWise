@@ -1,1 +1,3 @@
-***<p align="center">PennyWise</p>***
+<h1 align="center">PennyWise</h1>
+
+---
