@@ -1,4 +1,3 @@
-
 <h1 align="center">PennyWise</h1>
 
 
@@ -6,9 +5,9 @@
 
 <p align="center">
   <b>OOP 101</b><br>
-  [Perez, Jaspher A]<br>
-  [Perez, Sean Kelvin A.]<br>
-  [Villaverde, John Aaron C.]
+  Perez, Jaspher A<br>
+  Perez, Sean Kelvin A.<br>
+  Villaverde, John Aaron C.
 </p>
 
 
@@ -206,9 +205,9 @@ https://github.com/Jumong-aaron/PennyWise
 
 **Project Contributors:**
 
-- [Perez, Jaspher A]<br>
-- [Perez, Sean Kelvin A.]
-- [Villaverde, John Aaron C.]
+- Perez, Jaspher A<br>
+- Perez, Sean Kelvin A.
+- Villaverde, John Aaron C.
 
 ---
 
