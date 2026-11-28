@@ -5,6 +5,8 @@
 
 <p align="center">
   <b>OOP 101</b><br>
+  <b>CS 2101<b><br>
+  <b>Group 11 Three Idiots<b><br>
   Perez, Jaspher A<br>
   Perez, Sean Kelvin A.<br>
   Villaverde, John Aaron C.
